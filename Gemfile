@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-ruby '2.3.1'
-gem 'rails', '5.0.1'
+ruby '2.4.1'
+gem 'rails', '5.0.2'
 
 gem 'devise' # authentication
 gem 'omniauth-google-oauth2' # for Google account access
