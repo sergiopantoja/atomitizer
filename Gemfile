@@ -5,11 +5,12 @@ gem 'rails', '5.0.2'
 
 gem 'devise' # authentication
 gem 'omniauth-google-oauth2' # for Google account access
-gem 'pg', '0.19.0' # for Postgres
+gem 'pg', '0.20.0' # for Postgres
 gem 'pg_search', '2.0.1' # full-text search for Postgres
 gem 'puma', '3.4.0' # web server
+gem 'rack-cors' # for CORS support
 gem 'rack-timeout', '0.4.2' # end requests that take too long
-gem 'redis', '3.2.2' # for Action Cable and Sidekiq - DO NOT UPGRADE TO 3.3 UNTIL MEMORY LEAK IS FIXED IN GEM
+gem 'redis', '3.3.3' # for Action Cable and Sidekiq
 gem 'sass-rails', '5.0.6' # for SCSS files
 gem 'sidekiq', '4.1.2' # background jobs
 gem 'simple_form', '3.2.1' # rails forms made easier
