@@ -12,7 +12,8 @@ class ClipsController < ApplicationController
 
   # GET /clips/new
   def new
-    @clip = Clip.new
+    @clip = Clip.last.dup
+    @clip.text = nil
   end
 
   # GET /clips/1/edit
