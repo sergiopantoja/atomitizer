@@ -26,7 +26,7 @@ class ClipsController < ApplicationController
 
     respond_to do |format|
       if @clip.save
-        format.html { redirect_to @clip, notice: 'Clip was successfully created.' }
+        format.html { redirect_to new_clip_path, notice: 'Clip was successfully created.' }
         format.json { render json: {success: true} }
       else
         format.html { render :new }
